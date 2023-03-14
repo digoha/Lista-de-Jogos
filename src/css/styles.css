@@ -13,6 +13,7 @@ body {
 }
 
 .CoverIMG:hover{
+    filter: brightness(0.8);
     transform: scale(1.02);
     transition: 0.5s;
 }
