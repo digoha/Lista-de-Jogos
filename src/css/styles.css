@@ -7,4 +7,17 @@ body {
     width: 330px;
     height: 500px;
     margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    
+}
+
+.CoverIMG:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.CoverIMG:not(:hover){
+    transform: scale(1);
+    transition: 0.5s;
 }
