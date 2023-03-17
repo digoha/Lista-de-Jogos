@@ -21,7 +21,14 @@ body {
 
 .CoverIMG:not(:hover){
     transform: scale(1);
-    transition: 0.5s;
+    transition: 0.25s;
+}
+
+.imgConfig{
+    width: 330px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 15px;
 }
 
 header{
@@ -29,6 +36,7 @@ header{
     background-color: black;
     padding: 20px;
     margin-bottom: 15px;
+    width: auto;
 }
 
 h1{
@@ -50,16 +58,16 @@ h2{
 }
 
 
-.imgConfig{
-    width: 330px;
-    height: 500px;
-    margin: auto;
-    margin-bottom: 15px;
-}
 
 .bottom{
     margin-top: 15px;
     margin-bottom: 0px;
+    
+}
+
+.contato{
+    text-align: right;
+    margin: auto;
 }
 
 .jogos{
@@ -68,9 +76,9 @@ h2{
     text-align: center;
     padding: 20px;
     margin: auto;
-    margin-left: 200px;
-    margin-right: 200px;
     border-radius: 10px;
+    width: 450px;
+    height: auto;
 }
 
 li{
@@ -84,13 +92,14 @@ li{
 
 p{
     text-align: center;
-    margin-left: 400px;
-    margin-right: 400px;
     padding: 5px;
     border: 3px solid black;
     border-radius: 10px;
 }
 
+.colorText{
+    color: rgb(219, 219, 219);
+}
 
 
 
