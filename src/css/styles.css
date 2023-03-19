@@ -1,7 +1,7 @@
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: rgb(172, 172, 172);
-    overflow-x: hidden;
+    background-image: radial-gradient(circle, rgb(168, 139, 139), rgb(100, 86, 86), rgb(44, 44, 44));
+
 }
 
 .CoverIMG{
@@ -38,7 +38,7 @@ header{
     padding: 20px;
     padding-right: 0px;
     padding-left: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     width: 100%;
 }
 
@@ -64,25 +64,79 @@ h2{
 
 
 .bottom{
-    margin-top: 15px;
+    margin-top: 35px;
     margin-bottom: 0px;
+    
     
 }
 
-.contato{
-    text-align: right;
+a.contato{
+    color: rgb(219, 219, 219);
     margin: auto;
+    margin-left: 25px;
+    text-decoration: none;
+    
+}
+
+a.contato:visited{
+    color: rgb(229, 150, 150);
+}
+
+a.contato:hover{
+    color: rgb(246, 124, 124);
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.content{
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    max-width: 800px;
+    min-width: 400px;
+    background-color: rgb(158, 158, 158);
 }
 
 .jogos{
-    background-color: black;
-    color: rgb(219, 219, 219);
     text-align: center;
     padding: 20px;
     margin: auto;
     border-radius: 10px;
-    width: 450px;
+    width: 350px;
     height: auto;
+}
+
+.jogos.ruim{
+    margin-top: -25px;
+
+}
+
+.line{
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    transform: translateY(25px);
+    position: relative;
+    z-index: -1;
+    min-width: 420px;
+
+}  
+.line.top{
+    transform: translateY(50px);
+}
+
+ul{
+    text-align: center;
+    align-items: center;
 }
 
 li{
@@ -99,11 +153,19 @@ p{
     padding: 5px;
     border: 3px solid black;
     border-radius: 10px;
-    margin: 0px;
+    margin: 5px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    background-color: rgb(206, 206, 206);
 }
 
 .colorText{
     color: rgb(219, 219, 219);
+}
+
+.colorBox{
+    background-color: black;
 }
 
 
