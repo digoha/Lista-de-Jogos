@@ -101,6 +101,7 @@ a.contato:hover{
     max-width: 800px;
     min-width: 400px;
     background-color: rgb(158, 158, 158);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
 }
 
 .jogos{
@@ -145,11 +146,13 @@ li{
     padding-top: 15px;
     padding-bottom: 15px;
     margin: auto;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 }
 
 p{
     text-align: center;
+    font-size: 17px;
     padding: 5px;
     border: 3px solid black;
     border-radius: 10px;
